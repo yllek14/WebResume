@@ -51,7 +51,7 @@ namespace WebResume
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            //app.UseMvc();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
