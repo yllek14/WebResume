@@ -1,0 +1,77 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #fffff0;
+    background-image: url("../images/mount_view.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+
+
+#topBox {
+    height: auto;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    height: 450px;
+    background-image: url("../images/wedding_cropped.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 500px;
+}
+
+#botBox {
+    height:auto;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+ 
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.shadow-border {
+    border: .5px solid;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+
+#botBoxText {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align:center;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+}
+
+
+.imgList {
+    padding-left: 150px;
+    top: 25px;
+    left: 45px;
+    color: white;
+  
+}
+    .imgList ul {
+        list-style-type: none;
+        width: 300px;
+        padding-top: 50px;
+    }
+li{
+    height: 25px;
+}
